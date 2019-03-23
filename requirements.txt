@@ -1,0 +1,5 @@
+djangorestframework
+markdown
+django-filter 
+jwt
+mysqlclient
