@@ -1,6 +1,7 @@
-from django.conf.urls import url
-from employee.views import getEmployee
+from django.urls import include, path
+
+from .views import getEmployee
 
 urlpatterns = [
-	url('getEmployee', getEmployee)
+	path('getEmployee', getEmployee, name='get_employee'),
 ]
